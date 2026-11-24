@@ -1,0 +1,29 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Archivos compilados y caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caché de herramientas de testing y linters
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+.mypy_cache/
+
+# Variables de entorno y secretos locales
+.env
+.env.*
+!.env.example
+
+# Bases de datos locales de desarrollo (si usas SQLite al empezar)
+*.db
+*.sqlite3
+
+# Configuración de editores / sistema
+.vscode/
+.idea/
+.DS_Store
