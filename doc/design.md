@@ -1,5 +1,10 @@
 # AlgoBench — Diseño del sistema
 
+## 0. Convenciones de formato de código
+
+- **Clases**: PascalCase
+- **Funciones y variables**: snake\_case
+
 ## 1. Recursos de la API y relaciones
 
 La API se organiza en torno a los siguientes recursos:
